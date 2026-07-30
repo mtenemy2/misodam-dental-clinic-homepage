@@ -1,5 +1,6 @@
 import React from 'react';
 import { Award, Heart, Shield, CheckCircle2, Quote, Sparkles } from 'lucide-react';
+import doctorImg from '../assets/images/doctor.jpg';
 
 export const DoctorSection: React.FC = () => {
   const credentials = [
@@ -38,7 +39,7 @@ export const DoctorSection: React.FC = () => {
           {/* Portrait Image */}
           <div className="relative rounded-2xl overflow-hidden mb-5 border border-teal-200/80 shadow-sm group">
             <img
-              src="/images/doctor.jpg"
+              src={doctorImg}
               alt="안산미소담치과 김지환 대표원장"
               referrerPolicy="no-referrer"
               className="w-full h-64 sm:h-80 object-cover object-center group-hover:scale-105 transition-transform duration-500"

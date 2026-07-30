@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Phone, MapPin, Menu, X, ChevronRight, ShieldCheck } from 'lucide-react';
 import { MisodamLogo } from './MisodamLogo';
+import logoImg from '../assets/images/logo-horizontal.png';
 
 interface TopHeaderProps {
   onOpenInquiry: () => void;
@@ -50,7 +51,7 @@ export const TopHeader: React.FC<TopHeaderProps> = ({ onOpenInquiry }) => {
       <div className="max-w-md mx-auto px-4 sm:px-6 flex items-center justify-between">
         {/* Brand Logo */}
         <a href="#" className="flex items-center gap-2 group py-0.5">
-          <MisodamLogo className="h-9 sm:h-11" showText={false} logoSrc="/images/logo-horizontal.png" />
+          <MisodamLogo className="h-9 sm:h-11" showText={false} logoSrc={logoImg} />
         </a>
 
         {/* Action Buttons & Mobile Menu Toggle */}

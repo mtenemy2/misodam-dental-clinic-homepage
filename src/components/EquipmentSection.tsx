@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Cpu, Zap, Activity, CheckCircle2, XCircle, ArrowRight, Sparkles, Sliders } from 'lucide-react';
 import { CLINIC_EQUIPMENT } from '../data/clinicData';
+import trios6Img from '../assets/images/trios6.jpg';
 
 export const EquipmentSection: React.FC = () => {
   const [selectedEquipId, setSelectedEquipId] = useState<string>('trios6');
@@ -64,7 +65,7 @@ export const EquipmentSection: React.FC = () => {
           {activeEquip.id === 'trios6' && (
             <div className="relative rounded-xl overflow-hidden border border-teal-200/80 mb-4 shadow-2xs">
               <img
-                src="/images/trios6.jpg"
+                src={trios6Img}
                 alt="3D 구강스캐너 TRIOS 6"
                 referrerPolicy="no-referrer"
                 className="w-full h-48 sm:h-56 object-cover object-center"

@@ -158,15 +158,33 @@ export const LocationHoursSection: React.FC = () => {
           {/* Transportation & Parking Info */}
           <div className="space-y-2 text-xs">
             {/* Bus Info */}
-            <div className="p-3 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-2.5">
-              <Bus className="w-4 h-4 text-teal-700 shrink-0 mt-0.5" />
-              <div>
-                <span className="font-extrabold text-slate-800 block mb-0.5">
-                  대중교통 안내
+            <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-2.5">
+              <Bus className="w-4 h-4 text-teal-700 shrink-0 mt-1" />
+              <div className="space-y-2 text-xs w-full">
+                <span className="font-extrabold text-slate-900 block text-sm">
+                  버스 이용 안내
                 </span>
-                <span className="text-slate-600 leading-relaxed">
-                  와동공원로 버스 정류장 하차 도보 1분 (와동체육공원 인근)
-                </span>
+                <div className="bg-white p-3 rounded-xl border border-slate-200/90 space-y-2">
+                  <div className="flex items-center gap-1.5 text-slate-800 font-bold">
+                    <span className="px-2 py-0.5 rounded bg-teal-100 text-teal-900 text-[11px] font-extrabold shrink-0">
+                      하차 정류장
+                    </span>
+                    <span className="text-slate-900 font-extrabold">'와동체육공원사거리' 하차</span>
+                  </div>
+                  <div className="text-slate-700 leading-relaxed text-[11px] bg-slate-50/80 p-2 rounded-lg border border-slate-100">
+                    <span className="font-bold text-slate-900 block mb-0.5">📍 오시는 길</span>
+                    신협, 와동체육공원 반대쪽(북쪽)으로 약 100m 이동 (도보 1~2분)
+                  </div>
+                  <div className="pt-1.5 border-t border-slate-100 flex flex-wrap items-center gap-1.5 text-[11px]">
+                    <span className="font-extrabold text-slate-700">🚌 운행 노선:</span>
+                    <span className="px-2 py-0.5 rounded bg-blue-50 text-blue-700 border border-blue-100 font-semibold">
+                      시내버스 9, 101번
+                    </span>
+                    <span className="px-2 py-0.5 rounded bg-rose-50 text-rose-700 border border-rose-100 font-semibold">
+                      좌석버스 1100번
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>
 

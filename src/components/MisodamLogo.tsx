@@ -1,4 +1,5 @@
 import React from 'react';
+import defaultLogo from '../assets/images/logo-horizontal.png';
 
 interface MisodamLogoProps {
   className?: string;
@@ -15,7 +16,7 @@ export const MisodamLogo: React.FC<MisodamLogoProps> = ({
   showText = false,
   variant = 'horizontal',
   darkTheme = false,
-  logoSrc = '/images/logo-horizontal.png',
+  logoSrc = defaultLogo,
   invertImage = false,
   transparentBg = false,
 }) => {
