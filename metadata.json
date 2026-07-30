@@ -1,0 +1,6 @@
+{
+  "name": "안산미소담치과",
+  "description": "안산 와동 10년, 체어사이드 100% 원장 직접 진단 및 대학병원급 디지털 저통증 진료 안산미소담치과 모바일 웹사이트",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
