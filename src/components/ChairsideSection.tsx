@@ -94,7 +94,7 @@ export const ChairsideSection: React.FC = () => {
             <div className="p-4">
               <div className="relative rounded-xl overflow-hidden border border-slate-700 mb-3">
                 <img
-                  src="/src/assets/images/스캔.jpg"
+                  src="/src/assets/images/scan.jpg"
                   alt="체어사이드 3D 구강 스캔 및 진단"
                   referrerPolicy="no-referrer"
                   className="w-full h-48 object-cover object-center"
@@ -136,7 +136,7 @@ export const ChairsideSection: React.FC = () => {
               </div>
               <div className="relative rounded-xl overflow-hidden border border-slate-700">
                 <img
-                  src="/src/assets/images/치료비계획서.png"
+                  src="/src/assets/images/treatment-plan.png"
                   alt="원장 직접 작성 치료비 계획서"
                   referrerPolicy="no-referrer"
                   className="w-full h-auto object-contain"

@@ -50,7 +50,7 @@ export const TopHeader: React.FC<TopHeaderProps> = ({ onOpenInquiry }) => {
       <div className="max-w-md mx-auto px-4 sm:px-6 flex items-center justify-between">
         {/* Brand Logo */}
         <a href="#" className="flex items-center gap-2 group py-0.5">
-          <MisodamLogo className="h-9 sm:h-11" showText={false} logoSrc="/src/assets/images/로고가로.png" />
+          <MisodamLogo className="h-9 sm:h-11" showText={false} logoSrc="/src/assets/images/logo-horizontal.png" />
         </a>
 
         {/* Action Buttons & Mobile Menu Toggle */}

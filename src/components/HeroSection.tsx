@@ -118,7 +118,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenInquiry }) => {
         {/* Hero Visual Card with Hospital Chairside Banner */}
         <div className="relative rounded-2xl overflow-hidden shadow-lg border border-slate-200 mb-6 group">
           <img
-            src="/src/assets/images/설명.jpg"
+            src="/src/assets/images/explanation.jpg"
             alt="안산미소담치과 체어사이드 3D 스캔 및 진단 시스템"
             referrerPolicy="no-referrer"
             className="w-full h-48 object-cover object-[center_20%] group-hover:scale-105 transition-transform duration-500"
