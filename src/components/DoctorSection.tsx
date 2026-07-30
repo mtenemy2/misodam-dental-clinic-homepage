@@ -38,7 +38,7 @@ export const DoctorSection: React.FC = () => {
           {/* Portrait Image */}
           <div className="relative rounded-2xl overflow-hidden mb-5 border border-teal-200/80 shadow-sm group">
             <img
-              src="/src/assets/images/doctor.jpg"
+              src="/images/doctor.jpg"
               alt="안산미소담치과 김지환 대표원장"
               referrerPolicy="no-referrer"
               className="w-full h-64 sm:h-80 object-cover object-center group-hover:scale-105 transition-transform duration-500"

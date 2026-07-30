@@ -64,7 +64,7 @@ export const EquipmentSection: React.FC = () => {
           {activeEquip.id === 'trios6' && (
             <div className="relative rounded-xl overflow-hidden border border-teal-200/80 mb-4 shadow-2xs">
               <img
-                src="/src/assets/images/trios6.jpg"
+                src="/images/trios6.jpg"
                 alt="3D 구강스캐너 TRIOS 6"
                 referrerPolicy="no-referrer"
                 className="w-full h-48 sm:h-56 object-cover object-center"
