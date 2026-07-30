@@ -1,0 +1,6 @@
+# Explicitly handle image files as binary and disable Git LFS filters
+*.jpg binary -filter= -diff= -merge=
+*.jpeg binary -filter= -diff= -merge=
+*.png binary -filter= -diff= -merge=
+*.gif binary -filter= -diff= -merge=
+*.webp binary -filter= -diff= -merge=
