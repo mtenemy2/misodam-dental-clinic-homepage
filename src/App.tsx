@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { TopHeader } from './components/TopHeader';
 import { HeroSection } from './components/HeroSection';
 import { ChairsideSection } from './components/ChairsideSection';
@@ -15,6 +15,10 @@ import { ShieldCheck, Phone, MapPin } from 'lucide-react';
 
 export default function App() {
   const [isInquiryOpen, setIsInquiryOpen] = useState(false);
+
+  useEffect(() => {
+    document.title = "안산미소담치과";
+  }, []);
 
   return (
     <div className="min-h-screen bg-slate-100 font-sans text-slate-800 antialiased selection:bg-teal-200 selection:text-teal-900 pb-20">
