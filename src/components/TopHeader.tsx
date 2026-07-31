@@ -121,15 +121,6 @@ export const TopHeader: React.FC<TopHeaderProps> = ({ onOpenInquiry }) => {
             >
               <Phone className="w-4 h-4" /> 031-401-2875 바로 전화걸기
             </a>
-            <button
-              onClick={() => {
-                setIsMenuOpen(false);
-                onOpenInquiry();
-              }}
-              className="w-full py-2 px-4 rounded-xl bg-slate-100 text-slate-700 font-medium text-center text-xs hover:bg-slate-200 transition-colors"
-            >
-              간단 전화상담 / 빠른 문의 남기기
-            </button>
           </div>
         </div>
       )}
