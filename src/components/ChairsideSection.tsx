@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Tv, FileText, CheckCircle2, ShieldCheck, HelpCircle, ArrowRight, Sparkles, UserCheck } from 'lucide-react';
 import { SAMPLE_TREATMENT_ESTIMATES } from '../data/clinicData';
 import scanImg from '../assets/images/scan.jpg';
-import treatmentPlanImg from '../assets/images/treatment-plan.png';
+import treatmentPlanImg from '../assets/images/treatment-plan2.png';
 
 export const ChairsideSection: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'tv' | 'estimate'>('tv');
